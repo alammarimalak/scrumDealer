@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/scrumDealer/static/css/main.7eec8c24.css",
+    "main.js": "/scrumDealer/static/js/main.1c4fff75.js",
+    "static/js/977.1315ad49.chunk.js": "/scrumDealer/static/js/977.1315ad49.chunk.js",
+    "static/js/455.af8b1b1f.chunk.js": "/scrumDealer/static/js/455.af8b1b1f.chunk.js",
+    "index.html": "/scrumDealer/index.html",
+    "main.7eec8c24.css.map": "/scrumDealer/static/css/main.7eec8c24.css.map",
+    "main.1c4fff75.js.map": "/scrumDealer/static/js/main.1c4fff75.js.map",
+    "977.1315ad49.chunk.js.map": "/scrumDealer/static/js/977.1315ad49.chunk.js.map",
+    "455.af8b1b1f.chunk.js.map": "/scrumDealer/static/js/455.af8b1b1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eec8c24.css",
+    "static/js/main.1c4fff75.js"
+  ]
+}
