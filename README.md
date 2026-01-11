@@ -85,15 +85,33 @@ There is no backend or database at the moment, as the application does not requi
 
 ### Installation
 
-In the project directory, run:
+1. **Fork** the repository on GitHub.  
+2. **Clone** your fork locally:
+
+```bash
+git clone https://github.com/alammarimalak/scrumDealer.git
+```
+
+3. **Nagivate** into the project directory.
+
+```bash
+cd scrumDealer
+```  
+
+4. **install** dependencies.
 
 ```bash
 npm install
+```  
+
+5. **start** the development server.
+
+```bash
 npm start
-```
+```  
 
-The app runs in development mode.
+The app will run in development mode.
 Open <http://localhost:3000>
-to view it in the browser.
+in your browser to view it.
 
-The page will reload when you make changes.
+The page will reload automatically when you make changes.
