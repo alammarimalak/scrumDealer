@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Scrum Dealer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Scrum Dealer is a task management web application that combines two major agile approaches: **PERT** and **Scrum**.  
+It automates task duration calculation, generates PERT diagrams, and helps visualize project workflows in a clear and academic-friendly way.
 
-## Available Scripts
+This project was initially built to solve an academic problem—manual calculation of task durations and hand-drawn PERT diagrams—and evolved into a progressive software solution with real project management features.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Project Objectives
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Automate task duration calculations
+- Generate and visualize PERT diagrams
+- Combine academic agile concepts with practical software
+- Provide a lightweight project management tool for learning and demonstration
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Target Users
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Students**: verify answers and visualize PERT diagrams  
+- **Teachers**: demonstrate PERT and agile concepts  
+- **Project managers / Scrum masters**: organize and visualize project tasks  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### PERT Diagram Generator
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Automatically generates a PERT diagram based on calculated task durations  
+- Diagram visualization is implemented using D3.js  
 
-### `npm run eject`
+### Task Management
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Create tasks with descriptions  
+- Add subtasks  
+- Assign responsibility to a teammate  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### PDF Report Export
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Export the entire project as a PDF report  
+- Includes project name, project manager, tasks, and PERT diagram  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Role-Based Usage
 
-## Learn More
+- Designed for use by a Scrum Master, Project Manager, or Reporter  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
 
-### Code Splitting
+- **React.js** – for building a dynamic and interactive UI  
+- **D3.js** – for shaping and visualizing the PERT diagram  
+- **jsPDF** – for generating PDF reports  
+- **html2canvas** – for capturing UI elements and diagrams for export  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Application Type
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Web application  
+- Planned evolution into a downloadable desktop software  
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+There is no backend or database at the moment, as the application does not require data persistence yet.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Data Management
 
-### Deployment
+- No database
+- No backend
+- All data is handled in-memory for calculation, visualization, and export purposes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+In the project directory, run:
+
+```bash
+npm install
+npm start
+
+The app runs in development mode.
+Open http://localhost:3000
+to view it in the browser.
+
+The page will reload when you make changes.
