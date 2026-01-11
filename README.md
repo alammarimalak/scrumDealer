@@ -90,9 +90,10 @@ In the project directory, run:
 ```bash
 npm install
 npm start
+```
 
 The app runs in development mode.
-Open http://localhost:3000
+Open <http://localhost:3000>
 to view it in the browser.
 
 The page will reload when you make changes.
