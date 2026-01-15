@@ -7,7 +7,7 @@
 }
 
 .pert-diagram-container h3 {
-  color: #2c3e50;
+  color: #655eab;
   margin-bottom: 1.5rem;
   text-align: center;
   font-size: 1.6rem;
@@ -48,7 +48,7 @@
 }
 
 .connection-label {
-  fill: #0066cc;
+  fill: #d58e00;
   font-size: 14px;
   font-weight: 600;
   font-style: italic;
@@ -67,7 +67,7 @@
 }
 
 .critical-node {
-  fill: #fff9e6;
+  fill: #edffe6;
 }
 
 .milestone-node {
@@ -80,7 +80,8 @@
 }
 
 .node-date {
-  font-size: 13px;
+  padding-top: 10px;
+  font-size: 20px;
   font-weight: 600;
   pointer-events: none;
 }
@@ -96,9 +97,9 @@
 }
 
 .node-task-id {
-  fill: #0066cc;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
+  fill: #000000;
   pointer-events: none;
 }
 

@@ -187,11 +187,11 @@ const PertDiagram = forwardRef(({ results = [] }, ref) => {
                 <line x1={pos.x} y1={pos.y} x2={pos.x} y2={pos.y - NODE_RADIUS} className="node-divider" />
                 
                 {/* TOP HALF: Calculations (ES on left, LF on right) */}
-                <text x={pos.x - 25} y={pos.y - 25} textAnchor="middle" className="node-date node-es">{es}</text>
-                <text x={pos.x + 25} y={pos.y - 25} textAnchor="middle" className="node-date node-lf">{lf}</text>
+                <text x={pos.x - 25} y={pos.y - 19} textAnchor="middle" className="node-date node-es">{es}</text>
+                <text x={pos.x + 25} y={pos.y - 19} textAnchor="middle" className="node-date node-lf">{lf}</text>
 
                 {/* BOTTOM HALF: Step Number/Task ID */}
-                <text x={pos.x} y={pos.y + 35} textAnchor="middle" className="node-task-id">
+                <text x={pos.x} y={pos.y + 30} textAnchor="middle" className="node-task-id">
                   {event.id === 'START' ? 'START' : event.id === 'FINISH' ? 'END' : index}
                 </text>
               </g>
