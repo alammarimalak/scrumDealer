@@ -192,7 +192,7 @@ const PertDiagram = forwardRef(({ results = [] }, ref) => {
 
                 {/* BOTTOM HALF: Step Number/Task ID */}
                 <text x={pos.x} y={pos.y + 35} textAnchor="middle" className="node-task-id">
-                  {event.id === 'START' ? 'S' : event.id === 'FINISH' ? 'E' : index}
+                  {event.id === 'START' ? 'START' : event.id === 'FINISH' ? 'END' : index}
                 </text>
               </g>
             );
